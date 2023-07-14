@@ -78,7 +78,7 @@ const handleSubmit = async (e) => {//to handle the question when the response is
 
   //fetch data from the server
 
-  const response = await fetch('http://localhost:5000', {
+  const response = await fetch('https://codex-mfmo.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
